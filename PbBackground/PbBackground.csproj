@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- PowerBuilder 2022 R2+ can load .NET 6/8 assemblies via DotNetAssembly.LoadWithDotNetCore. -->
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>PbBackground</RootNamespace>
+    <AssemblyName>PbBackground</AssemblyName>
+    <!-- AnyCPU works for both 32-bit and 64-bit PB apps; the matching .NET runtime (x86/x64) must be installed. -->
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+</Project>

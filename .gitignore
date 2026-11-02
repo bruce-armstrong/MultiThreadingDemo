@@ -1,0 +1,14 @@
+# Build output
+/build/
+/.pb/
+*.pbd
+*.ast
+*.opt
+
+# .NET build output
+bin/
+obj/
+
+# Worker DLL copied to the solution folder by build.ps1
+/PbBackground.dll
+/PbBackground.deps.json

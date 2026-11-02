@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="multithreadingdemo"/>
+  <DeployConfigurations OutputDirectory="Build\bin\$(ConfigurationName)">
+    <DeployConfiguration Name="p_multithreadingdemo_exe" Path="PowerBuilder\multithreadingdemo.pbl\p_multithreadingdemo_exe.srj"/>
+  </DeployConfigurations>
+  <Libraries AppEntry="PowerBuilder\multithreadingdemo.pbl">
+    <Library Path="PowerBuilder\multithreadingdemo.pbl"/>
+  </Libraries>
+</Project>
