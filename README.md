@@ -112,3 +112,7 @@ return a JSON array of row objects and load it straight into a DataWindow with
   PowerScript built-ins (for example `Start` or `Run`).
 - **Debugging:** you can attach Visual Studio to `pb*.exe` or your app's EXE (managed debugging)
   to step through the C# side while PB is running.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
